@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Deathmatch.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{068E73E7-D38F-4A03-9167-D1860C60E8C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Deathmatch.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DeathmatchEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5D401F0B-B9C6-4AEF-BFD9-514F85F20F22}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Deathmatch">
+      <UniqueIdentifier>{362A7558-C2B4-4F11-A5C8-550195084DA5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Deathmatch\Deathmatch.Build.cs">
+      <Filter>Source\Deathmatch</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Deathmatch\Deathmatch.cpp">
+      <Filter>Source\Deathmatch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Deathmatch\Deathmatch.h">
+      <Filter>Source\Deathmatch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Deathmatch\DeathmatchGameModeBase.cpp">
+      <Filter>Source\Deathmatch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Deathmatch\DeathmatchGameModeBase.h">
+      <Filter>Source\Deathmatch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Deathmatch\Public">
+      <UniqueIdentifier>{088e0bdc-b968-4be5-a9ce-ce54e957b6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Deathmatch\Private">
+      <UniqueIdentifier>{bb9b162c-3671-4b47-ace7-d3638c636944}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\PlayerCharacter.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\PlayerCharacter.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
