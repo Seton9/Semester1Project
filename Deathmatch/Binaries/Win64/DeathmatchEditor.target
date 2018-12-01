@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-9932.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-1749.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-9932.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-1749.pdb",
 			"Type": "SymbolFile"
 		},
 		{

@@ -4,6 +4,7 @@
 #include "../Public/PlayerCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/PawnMovementComponent.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -17,6 +18,8 @@ APlayerCharacter::APlayerCharacter()
 
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
 	CameraComp->SetupAttachment(SpringArmComp);
+
+	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 }
 
 // Called when the game starts or when spawned
@@ -36,6 +39,18 @@ void APlayerCharacter::MoveRight(float Value)
 	AddMovementInput(GetActorRightVector() * Value);
 }
 
+void APlayerCharacter::BeginCrouch()
+{
+	Crouch();
+}
+
+
+void APlayerCharacter::EndCrouch()
+{
+	UnCrouch();
+}
+
+
 // Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
@@ -53,5 +68,8 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerCharacter::AddControllerYawInput);
+
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &APlayerCharacter::BeginCrouch);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &APlayerCharacter::EndCrouch);
 }
 

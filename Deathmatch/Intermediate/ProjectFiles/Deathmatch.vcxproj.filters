@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Deathmatch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{068E73E7-D38F-4A03-9167-D1860C60E8C8}</UniqueIdentifier>
+      <UniqueIdentifier>{6236C849-B00C-4324-865B-D30DA1F3C3FC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5D401F0B-B9C6-4AEF-BFD9-514F85F20F22}</UniqueIdentifier>
+      <UniqueIdentifier>{BD00BDDE-70AA-468D-A35D-BCCE4E02946C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Deathmatch">
-      <UniqueIdentifier>{362A7558-C2B4-4F11-A5C8-550195084DA5}</UniqueIdentifier>
+      <UniqueIdentifier>{BD9AC5C3-E07B-41ED-BD60-A3DEABFCA817}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch\Deathmatch.Build.cs">
       <Filter>Source\Deathmatch</Filter>
@@ -41,23 +41,17 @@
     <ClInclude Include="..\..\Source\Deathmatch\DeathmatchGameModeBase.h">
       <Filter>Source\Deathmatch</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\Deathmatch\Public">
-      <UniqueIdentifier>{088e0bdc-b968-4be5-a9ce-ce54e957b6a7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\Deathmatch\Private">
-      <UniqueIdentifier>{bb9b162c-3671-4b47-ace7-d3638c636944}</UniqueIdentifier>
+      <UniqueIdentifier>{71C840C9-CF5F-46BE-A9C0-26CBB1EB5B85}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Deathmatch\Public\PlayerCharacter.h">
-      <Filter>Source\Deathmatch\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Deathmatch\Private\PlayerCharacter.cpp">
       <Filter>Source\Deathmatch\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\Deathmatch\Public">
+      <UniqueIdentifier>{905B9E3A-38A9-46EE-9918-E467D5DB0FFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\PlayerCharacter.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
