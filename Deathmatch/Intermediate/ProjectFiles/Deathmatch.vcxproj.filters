@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Deathmatch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6236C849-B00C-4324-865B-D30DA1F3C3FC}</UniqueIdentifier>
+      <UniqueIdentifier>{65463F77-EA94-419D-AC3F-D24B33E4AC48}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BD00BDDE-70AA-468D-A35D-BCCE4E02946C}</UniqueIdentifier>
+      <UniqueIdentifier>{94349DB1-5384-4294-8634-5878CD2465D9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Deathmatch">
-      <UniqueIdentifier>{BD9AC5C3-E07B-41ED-BD60-A3DEABFCA817}</UniqueIdentifier>
+      <UniqueIdentifier>{D672CD15-57E5-4CA3-83BB-C3AC0A4C0B84}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch\Deathmatch.Build.cs">
       <Filter>Source\Deathmatch</Filter>
@@ -42,13 +45,13 @@
       <Filter>Source\Deathmatch</Filter>
     </ClInclude>
     <Filter Include="Source\Deathmatch\Private">
-      <UniqueIdentifier>{71C840C9-CF5F-46BE-A9C0-26CBB1EB5B85}</UniqueIdentifier>
+      <UniqueIdentifier>{0FF61817-5877-4019-AEF5-46DCDF7C77AC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Deathmatch\Private\PlayerCharacter.cpp">
       <Filter>Source\Deathmatch\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Deathmatch\Public">
-      <UniqueIdentifier>{905B9E3A-38A9-46EE-9918-E467D5DB0FFE}</UniqueIdentifier>
+      <UniqueIdentifier>{A0186797-6AA2-4FAB-AADC-014DC711C68E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Deathmatch\Public\PlayerCharacter.h">
       <Filter>Source\Deathmatch\Public</Filter>
