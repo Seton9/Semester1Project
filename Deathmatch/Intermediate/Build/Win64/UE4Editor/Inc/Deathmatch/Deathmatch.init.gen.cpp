@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeDeathmatch_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Deathmatch",
 				PKG_CompiledIn | 0x00000000,
-				0x4A2DC7F5,
-				0xCEB6940A,
+				0x563CDEAB,
+				0xEE160A7E,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

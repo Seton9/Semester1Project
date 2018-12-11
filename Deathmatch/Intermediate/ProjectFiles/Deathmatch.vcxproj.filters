@@ -57,26 +57,4 @@
       <Filter>Source\Deathmatch\Public</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Deathmatch\Public\Rifle.h">
-      <Filter>Source\Deathmatch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Deathmatch\Public\Shotgun.h">
-      <Filter>Source\Deathmatch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Deathmatch\Public\Deagle.h">
-      <Filter>Source\Deathmatch\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Deathmatch\Private\Rifle.cpp">
-      <Filter>Source\Deathmatch\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Deathmatch\Private\Shotgun.cpp">
-      <Filter>Source\Deathmatch\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Deathmatch\Private\Deagle.cpp">
-      <Filter>Source\Deathmatch\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
