@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Deathmatch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{65463F77-EA94-419D-AC3F-D24B33E4AC48}</UniqueIdentifier>
+      <UniqueIdentifier>{3D1866A7-E4B4-4765-B556-4BD20023B9AC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{94349DB1-5384-4294-8634-5878CD2465D9}</UniqueIdentifier>
+      <UniqueIdentifier>{1668F023-BE48-40B5-8798-605F0EE39FA0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Deathmatch">
-      <UniqueIdentifier>{D672CD15-57E5-4CA3-83BB-C3AC0A4C0B84}</UniqueIdentifier>
+      <UniqueIdentifier>{7E8D8018-B6CB-411C-A365-EC2C4E4A6830}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Deathmatch\Deathmatch.Build.cs">
       <Filter>Source\Deathmatch</Filter>
@@ -45,16 +45,50 @@
       <Filter>Source\Deathmatch</Filter>
     </ClInclude>
     <Filter Include="Source\Deathmatch\Private">
-      <UniqueIdentifier>{0FF61817-5877-4019-AEF5-46DCDF7C77AC}</UniqueIdentifier>
+      <UniqueIdentifier>{7AC7B881-850E-4404-B777-ED87D2B29F3A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Deathmatch\Private\PlayerCharacter.cpp">
       <Filter>Source\Deathmatch\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Deathmatch\Public">
-      <UniqueIdentifier>{A0186797-6AA2-4FAB-AADC-014DC711C68E}</UniqueIdentifier>
+      <UniqueIdentifier>{2DDBBFE1-16F6-4197-A57A-4D3BE2DD005F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Deathmatch\Public\PlayerCharacter.h">
       <Filter>Source\Deathmatch\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\Weapons.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\Rifle.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\Shotgun.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\Deagle.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Deathmatch\Public\LaunchPad.h">
+      <Filter>Source\Deathmatch\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\Weapons.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\Rifle.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\Shotgun.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\Deagle.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Deathmatch\Private\LaunchPad.cpp">
+      <Filter>Source\Deathmatch\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

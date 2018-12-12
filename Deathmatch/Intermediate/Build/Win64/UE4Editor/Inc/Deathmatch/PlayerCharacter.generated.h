@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DEATHMATCH_PlayerCharacter_generated_h
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_RPC_WRAPPERS
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_RPC_WRAPPERS
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_INCLASS \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerCharacter(APlayerCharacter&&); \
@@ -57,30 +57,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(APlayerCharacter, CameraComp); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(APlayerCharacter, SpringArmComp); }
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_12_PROLOG
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_GENERATED_BODY_LEGACY \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_13_PROLOG
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_RPC_WRAPPERS \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_INCLASS \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_STANDARD_CONSTRUCTORS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_RPC_WRAPPERS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_INCLASS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_GENERATED_BODY \
+#define Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	Deathmatch_Source_Deathmatch_Public_PlayerCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

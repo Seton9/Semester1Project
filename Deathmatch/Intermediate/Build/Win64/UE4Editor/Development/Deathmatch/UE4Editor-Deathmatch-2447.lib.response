@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Deathmatch-2447.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\DeathmatchEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Deathmatch.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\DeathmatchGameModeBase.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Deagle.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\LaunchPad.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\PlayerCharacter.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Rifle.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Shotgun.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Weapons.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Deagle.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Deathmatch.init.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\DeathmatchGameModeBase.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\LaunchPad.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\PlayerCharacter.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Rifle.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Shotgun.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\Weapons.gen.cpp.obj"
+"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\PCLaunch.rc.res"
+/OUT:"E:\Game\Unreal Projects\Semester1Project\Deathmatch\Intermediate\Build\Win64\UE4Editor\Development\Deathmatch\UE4Editor-Deathmatch-2447.lib"

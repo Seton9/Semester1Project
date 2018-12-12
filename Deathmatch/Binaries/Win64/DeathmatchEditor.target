@@ -6,9 +6,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 21,
-		"PatchVersion": 0,
-		"Changelist": 4541578,
-		"CompatibleChangelist": 0,
+		"PatchVersion": 1,
+		"Changelist": 4613538,
+		"CompatibleChangelist": 4541578,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
 		"BranchName": "++UE4+Release-4.21",
@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-5356.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-1426.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-5356.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Deathmatch-1426.pdb",
 			"Type": "SymbolFile"
 		},
 		{
