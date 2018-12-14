@@ -175,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeLaunchPad() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchPitchAngle_MetaData[] = {
 		{ "Category", "LaunchPad" },
 		{ "ModuleRelativePath", "Public/LaunchPad.h" },
-		{ "ToolTip", "Angle added on top of actor rotation to launch the character.\n              Marked 'EditInstanceOnly' to allow in-level editing of this property per instance." },
+		{ "ToolTip", "Angle added on top of actor rotation to launch the character.\n      Marked 'EditInstanceOnly' to allow in-level editing of this property per instance." },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchPitchAngle = { UE4CodeGen_Private::EPropertyClass::Float, "LaunchPitchAngle", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000801, 1, nullptr, STRUCT_OFFSET(ALaunchPad, LaunchPitchAngle), METADATA_PARAMS(Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchPitchAngle_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchPitchAngle_MetaData)) };
@@ -183,7 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeLaunchPad() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchStrength_MetaData[] = {
 		{ "Category", "LaunchPad" },
 		{ "ModuleRelativePath", "Public/LaunchPad.h" },
-		{ "ToolTip", "Total impulse added to the character on overlap\n              Marked 'EditInstanceOnly' to allow in-level editing of this property per instance." },
+		{ "ToolTip", "Total impulse added to the character on overlap\n      Marked 'EditInstanceOnly' to allow in-level editing of this property per instance." },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchStrength = { UE4CodeGen_Private::EPropertyClass::Float, "LaunchStrength", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000801, 1, nullptr, STRUCT_OFFSET(ALaunchPad, LaunchStrength), METADATA_PARAMS(Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchStrength_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALaunchPad_Statics::NewProp_LaunchStrength_MetaData)) };
@@ -234,7 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeLaunchPad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALaunchPad, 3405637793);
+	IMPLEMENT_CLASS(ALaunchPad, 3918863724);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALaunchPad(Z_Construct_UClass_ALaunchPad, &ALaunchPad::StaticClass, TEXT("/Script/Deathmatch"), TEXT("ALaunchPad"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALaunchPad);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -31,12 +31,18 @@ void APlayerCharacter::BeginPlay()
 
 void APlayerCharacter::MoveForward(float Value)
 {
-	AddMovementInput(GetActorForwardVector() * Value);
+	if (Value != 0.0f)
+	{
+		AddMovementInput(GetActorForwardVector(), Value);
+	}
 }
 
 void APlayerCharacter::MoveRight(float Value)
 {
-	AddMovementInput(GetActorRightVector() * Value);
+	if (Value != 0.0f)
+	{
+		AddMovementInput(GetActorRightVector(), Value);
+	}
 }
 
 void APlayerCharacter::BeginCrouch()
